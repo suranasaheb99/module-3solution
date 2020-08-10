@@ -1,0 +1,69 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: black;
+}
+
+#header-nav {
+	background-color: grey;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none; 
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+}
+.navbar-brand p {
+	color: #907f46;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-top: 15px;
+	vertical-align: middle;
+}
+
+.navbar-nav {
+	margin-top:10px;
+	float: right;
+}
+
+.navbar-nav a {
+	color: black;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.navbar-nav a:hover {
+	background-color: rgba(0,0,0,0.8);
+	color:#eeae96; 
+	transition: 0.8s ease;
+	border-radius: 5px;
+}
+
+.navbar-header button.navbar-toggler, .navbar-toggler-icon:hover {
+	background-color: #907f46
+	border:#907f46;
+	transition: 0.5s ease;
+}
+
+
+@media (min-width: 1200px){
+	.jumbotron {
+		box-shadow: 0 0 50px #CAB776
+		border: 2px solid #CAB776
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media (max-width: 768px) and (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 479px) {}
